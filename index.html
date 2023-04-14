@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to external Google Fonts used in the application -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- Link to the external CSS stylesheet for styling the application -->    
+    <link rel="stylesheet" href="style.css">
+    <title>Day #10 - Weather App | AsmrProg</title>
+</head>
+
+<body>
+    <!-- Main container for the weather app -->
+    <div class="container">
+        <!-- Search box for entering location -->
+        <div class="search-box">
+            <i class="fas fa-map-marker-alt"></i>
+            <input type="text" placeholder="Enter your location">
+            <button class="fas fa-search"></button>
+        </div>
+         <!-- Error message displayed if the entered location is invalid -->
+        <div class="not-found">
+            <img src="images/404.png">
+            <p>Oops! Invalid location :/</p>
+        </div>
+        <!-- Display box for the current weather -->
+        <div class="weather-box">
+            <img src="">
+            <p class="temperature"></p>
+            <p class="description"></p>
+        </div>
+        <!-- Display box for additional weather details -->
+        <div class="weather-details">
+            <div class="humidity">
+                <i class="fas fa-tint"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class="fas fa-wind"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Link to the external Font Awesome library for icons -->
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+    <!-- Link to the external JavaScript file for the application's functionality -->
+    <script src="index.js"></script>
+</body>
+
+</html>
